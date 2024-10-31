@@ -1,0 +1,12 @@
+data:
+  source_dir: "C:\\Users\\Nikola\\Downloads\\library_data"
+  customers_file: "customers.csv"
+  books_file: "books.csv"
+  checkouts_file: "checkouts.csv"
+  libraries_file: "libraries.csv"
+  return_limit_in_days: 28
+
+spark_csv_read_options:
+  header: "true"
+  delimiter: ","
+  inferSchema: "true"
