@@ -1,5 +1,5 @@
 data:
-  source_dir: "C:\\Users\\Nikola\\Downloads\\library_data"
+  source_dir: "C:\\Users\\John\\library_data"
   customers_file: "customers.csv"
   books_file: "books.csv"
   checkouts_file: "checkouts.csv"
