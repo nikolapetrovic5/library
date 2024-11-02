@@ -1,37 +1,36 @@
-# Library analysis
+# Library Return Analysis
 
-Books are being checked out and then returned late way too often.
-This project will analyze library data in order to build model,
-to predict likelihood of a late return of any book at checkout time.
+This project aims to analyze library usage data to build a predictive model that estimates the likelihood of a late return at the time of book checkout. A book is considered "late" if it is returned more than 28 days after being checked out.
 
-Books are considered late if they are not returned within 28 days of checkout.
+# Analysis Workflow
 
-## The analysis process consist of the following:
-* Read raw data.
-* Spot and resolve irregularities (data cleaning).
-* Merge data into single table.
-* Do analysis.
+The analysis follows these key steps:
+* Load raw library data.
+* Identify and resolve data irregularities (data cleaning).
+* Consolidate data into a unified table.
+* Conduct in-depth analysis and model building.
 
-## Prerequisites:
-* Python 3 (3.10.4 is used for the development).
-* Visual Studio Code.
-* Jupyter extension (VS Code).
-* Python Debugger (VS Code).
-* Python extension (VS Code).
-* Pylance (VS Code).
+# Prerequisites
 
-## Usage
+Ensure the following tools and extensions are installed:
 
-First step is to update 'source_dir' parameter in dev_config.yaml file.
-This parameter holds path to directory where your source data lays.
+* Python Version 3.10.4 (recommended).
+* Visual Studio Code with the following extensions:
+    * Jupyter
+    * Python Debugger
+    * Python extension
+    * Pylance
+
+# Usage
+
+1. Update the `source_dir` parameter in the `dev_config.yaml` file to specify the directory path where your source data is stored.
 
 ![alt text](config_yaml_img.png)
 
-Next step will be to press button 'Run All' and wait for results to show up,
-at very bottom of the notebook.
+2. Open the notebook and click on `Run All` to execute the analysis. Results will appear at the bottom of the notebook upon completion.
 
 ![alt text](run_all_notebook_img.png)
 
-If any error appears, restart kernel and press button 'Run All' again.
+3. If an error occurs, restart the kernel by clicking on `Restart` and then click `Run All` again.
 
 ![alt text](restart_kernel_img.png)
