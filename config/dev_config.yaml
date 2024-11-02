@@ -5,8 +5,11 @@ data:
   checkouts_file: "checkouts.csv"
   libraries_file: "libraries.csv"
   return_limit_in_days: 28
+  source_data_format: "csv"
 
-spark_csv_read_options:
+spark_source_data_read_options:
   header: "true"
   delimiter: ","
   inferSchema: "true"
+  ignoreLeadingWhiteSpace: "true"
+  ignoreTrailingWhiteSpace: "true"
