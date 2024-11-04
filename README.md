@@ -19,7 +19,6 @@ Ensure the following tools and extensions are installed:
     * Jupyter
     * Python Debugger
     * Python extension
-    * Pylance
 
 # Usage
 
