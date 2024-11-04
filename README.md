@@ -24,7 +24,7 @@ Ensure the following tools and extensions are installed:
 
 1. Update the `source_dir` parameter in the `dev_config.yaml` file to specify the directory path where your source data is stored.
 
-![alt text](config_yaml_img.png)
+![alt text](config_img.png)
 
 2. Open the notebook and click on `Run All` to execute the analysis. Results will appear at the bottom of the notebook upon completion.
 
